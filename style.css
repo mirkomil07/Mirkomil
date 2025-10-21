@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #302c42;
+  width: 88.33%;
+  margin: auto;
+}
+header {
+  width: 100%;
+  background-color: #302c42;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 27px 1px;
+}
+.logo {
+  width: 33.3%;
+}
+.logo img {
+  width: 193px;
+  height: 103px;
+  display: flex;
+  margin-left: 70px;
+  cursor: pointer;
+}
+.menu {
+  width: 33.3%;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #fff;
+}
+.menu li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.tugmalar {
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.btn1 {
+  border-radius: 40px;
+  border: 2px solid white;
+  padding: 10px 32.5px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.btn2 {
+  border-radius: 40px;
+  border: none;
+  padding: 10px 32.5px;
+  background: linear-gradient(#8176af, #c0b7e8);
+  cursor: pointer;
+}
+.main-1 {
+  margin: auto;
+  display: flex;
+}
+.main-1 .s1 {
+  width: 50%;
+  padding: 50px;
+  color: #fff;
+}
+.main-2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-2 img {
+  width: 524px;
+  height: 460px;
+}
+.qatorcha {
+  display: flex;
+  align-items: center;
+}
+.qatorcha button {
+  border-radius: 40px;
+  width: 214px;
+  height: 48px;
+  background: linear-gradient(#8176af, #c0b7e8);
+  border: none;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.icon {
+  width: 320px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#3a3456f2, #211e2e);
+  border-radius: 90px;
+  outline: 1px solid rgb(241, 123, 142);
+  color: ghostwhite;
+}
+.icon img {
+  width: 48.75px;
+  height: 37.92px;
+  margin-right: 10px;
+}
+.infocha {
+  width: 100%;
+  display: flex;
+}
+.infocha .left {
+  width: 40%;
+}
+.infocha .left h1 {
+  color: ghostwhite;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+}
+.infocha .right {
+  width: 60%;
+}
+.infocha .right p {
+  width: 652px;
+  height: 98px;
+  font-size: 20px;
+  color: ghostwhite;
+}
+.abaut {
+  display: flex;
+}
+.abaut > .abaut-right {
+  color: ghostwhite;
+  padding-top: 5%;
+}
+.abaut > .abaut-right > p {
+  width: 80%;
+}
+button {
+  width: 240px;
+  height: 48px;
+  opacity: 1;
+  top: 1691px;
+  left: 726px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+}
+.cards{
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.cards .card{
+  width: 24%;
+  margin: auto;
+  text-align: center;
+  background: radial-gradient(rgba(67, 61, 96, 1), rgba(33, 30, 46, 1));
+  border-radius: 40px;
+  border: 1px solid pink;
+  padding-bottom: 8px;
+  color: ghostwhite;
+}
+.cards .card:hover{
+  position: relative;
+  border: 1px solid coral;
+}
+.cards .card img{
+  width: 219px;
+  height: 219px;
+  border-radius: 50%;
+}
+.cards .card button{
+  margin-top: 25px;
+  width: 154px;
+  height: 48px;
+  background: linear-gradient(rgba(129, 118, 175, 1), rgba(192, 183, 232, 1));
+  border: 1px solid grey;
+}
+.cards .card button:hover{
+  background: radial-gradient(rgba(67, 61, 96, 1), rgba(33, 30, 46, 1));;
+cursor: pointer;
+}
+.container{
+  background-color: rgba(64, 58, 95, 1);
+  border-radius: 40px;
+  text-align: center;
+  color: ghostwhite;
+  padding: 60px 10px;
+}
+.container h1{
+  margin-bottom: 15px;
+}
+.inp input{
+  width: 524px;
+  height: 72px;
+  border-radius: 35px;
+  border: 1px solid #eee;
+  margin: 25px 1px;
+  padding-left: 20px;
+  font-size: 18px;
+  background-color: transparent;
+  color: ghostwhite;
+  outline: none;
+}
+
+.inpp input, .inpp textarea{
+  width: 1058px;
+  height: 72px;
+  border-radius: 35px;
+  border: 1px solid #eee;
+  margin: 25px auto;
+  padding-left: 20px;
+  font-size: 18px;
+  background-color: transparent;
+  color: ghostwhite;
+  outline: none;
+}
+.inpp textarea{
+  width: 1058px;
+  height: 72px;
+  border-radius: 35px;
+  border: 1px solid #eee;
+  margin: 25px auto;
+  padding-left: 20px;
+  font-size: 18px;
+  background-color: transparent;
+  color: ghostwhite;
+  outline: none;
+  padding: 20px;
+  display: block;
+}
+.inpp button{
+  width: 214px;
+  height: 48px;
+  border: none;
+}
+.list li{
+  list-style-type: none;
+  font-size: 20px;
+  margin-top: 10px;
+  color: ghostwhite;
+}
